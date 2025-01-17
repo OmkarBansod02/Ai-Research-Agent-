@@ -23,7 +23,7 @@ Before using the Research Assistant Agent, ensure you have the following:
 
    ```bash
    git clone https://github.com/your-repo/research-assistant-agent.git
-   cd research-assistant-agent
+   cd Ai-Research-Agent
 
 2. **Create a Virtual Environment**
 
@@ -33,11 +33,15 @@ It's a good practice to set up a virtual environment for the project:
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate  # On Windows
-
+```
 3. **Install Dependencies**
+Install the required dependencies using pip:
+```bash
+pip install -r requirements.txt
 
-Install the required dependencies using pip
-
+```
 4. **Set Up API Key**
-
+ 
 Create a .env file in the project root if not already present, and add your Google API key like this:
+```bash
+GOOGLE_API_KEY=your-api-key-here
